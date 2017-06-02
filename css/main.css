@@ -179,6 +179,7 @@ ul{
 	top: 1749px;
 	left: 667px;
 }
+/*textos*/
 #p-uno, #p-dos{
 	color: white;
 }
@@ -192,6 +193,7 @@ ul{
 	padding-right: 280px;
 	margin: 15px;
 }
+/*boton*/
 .btn{
 	text-align: center;
 }
@@ -208,10 +210,119 @@ ul{
 	padding: 15px;
 }
 /*CONTACT*/
+.contacto{
+	height: 800px;
+}
 .titulo-cont{
 	text-align: center;
 }
 .titulo-contact{
+	color: #333333;
 	font-size: 35px;
-	padding-top: 35px;
+	padding-top: 50px;
 }
+.star-con{
+	text-align: center;
+}
+hr{
+	display: inline-block;
+	height: 6px;
+	width: 6%;
+    background-color: #2C3E50;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.star-4{
+	color: #2C3E50;
+	width: 62%;
+	top: 337%;
+}
+/*Inputs*/
+.npt-formulario{
+	text-align: center;
+}
+input{
+	margin: 20px;
+	width: 58%;
+	border-top: 1px solid #EEEEEE;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+}
+input[placeholder]{
+	color: rgba(153, 153, 153, 0.8);
+	font-size: 130%;
+}
+/*boton send*/
+.npt-btn{
+	padding-left: 288px;
+	padding-top: 11%;
+	padding-right: 1px;
+}
+.btn-send{
+	border-top: 15px solid #18BC9C;
+	border-bottom: 15px solid #18BC9C;	
+	border-left: 15px solid #18BC9C;
+	border-right: 15px solid #18BC9C;
+	border-radius: 5px;
+	background-color: #18BC9C;
+
+}
+.btn-send{
+	color: white;
+}
+/*Location*/
+.lct-text{
+	text-align: center;
+	padding-top: 45px;
+	margin-left: 15px;
+}
+.locacion{
+	background-color: #2C3E50;
+	height: 280px;
+}
+.style-lct{
+	color: white;
+	font-size: 170%;
+}
+.lct-uno, .lct-tres{
+	font-size: 129%;
+	margin: 45px;
+}
+.lct-dos{
+	font-size: 154%;
+	margin: 45px;
+}
+.lct-dos a i{
+	padding: 10px;
+}
+.lct-icons{
+	width: 40px;
+	height: 40px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;	
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	border-radius: 52%;
+}
+.lct-icons:hover{
+	background-color: white;
+}
+.fa:hover{
+	color: #18BC9C;
+}
+/*footer*/
+footer{
+	background-color: #233140;
+	height: 60px;
+	text-align: center;
+}
+footer p{
+	font-size: 12px;
+	color: white;
+	padding-top: 25px;
+}
+
+
+
